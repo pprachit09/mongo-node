@@ -3,7 +3,6 @@ const mongoose = require('mongoose');
 //connect to mongodb
 before(function(done){
 
-    // Connect to mongodb
     mongoose.connect('mongodb://localhost/testcase',{ useNewUrlParser: true });
     mongoose.set('useFindAndModify', false);
     mongoose.connection.once('open', function(){
