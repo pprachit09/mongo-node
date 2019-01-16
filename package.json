@@ -1,0 +1,27 @@
+{
+  "name": "mongo-node",
+  "version": "1.0.0",
+  "description": "node js website with mongo db connecition",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pprachit09/mongo-node.git"
+  },
+  "keywords": [
+    "Mongo",
+    "node"
+  ],
+  "author": "Prachit Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pprachit09/mongo-node/issues"
+  },
+  "homepage": "https://github.com/pprachit09/mongo-node#readme",
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "mongoose": "^5.4.3"
+  }
+}
