@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/pprachit09/mongo-node#readme",
   "dependencies": {
-    "mocha": "^6.2.2",
+    "mocha": "^7.0.0",
     "mongoose": "^5.4.3"
   }
 }
